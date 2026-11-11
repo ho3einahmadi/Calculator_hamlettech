@@ -1,4 +1,28 @@
-# 🧮 ماشین حساب پیشرفته هملت‌تک (HamletTech Calculator)
+**English** · [فارسی](#فارسی)
+
+# 🧮 HamletTech Calculator
+
+A modern desktop calculator written in Python with Tkinter, optimised for Windows.
+
+**Features:** full keyboard support (digits, operators, Enter = equals, Backspace), flat UI with hover effects, custom taskbar icon on Windows (via `ctypes`), bundled `logo.png`, and a single-file `.exe` build with PyInstaller.
+
+**Run from source**
+```bash
+git clone https://github.com/ho3einahmadi/Calculator_hamlettech.git
+cd Calculator_hamlettech
+python main.py
+```
+**Build an .exe:** `pyinstaller --onefile --windowed --add-data "logo.png;." main.py`
+
+![Calculator Preview](screenshot.PNG)
+
+---
+
+<a id="فارسی"></a>
+
+<div dir="rtl">
+
+## 🧮 ماشین حساب پیشرفته هملت‌تک (HamletTech Calculator)
 
 یک ماشین حساب گرافیکی مدرن و هوشمند که با Python و کتابخانه Tkinter توسعه یافته است. این پروژه فراتر از یک ماشین حساب ساده است و برای تجربه کاربری بهتر در ویندوز بهینه شده است.
 
@@ -24,7 +48,6 @@
 ## 📸 پیش‌نمایش محیط برنامه
 
 ![Calculator Preview](screenshot.PNG)
-> *نکته: برای نمایش عکس، حتماً یک اسکرین‌شات با نام screenshot.png در مخزن آپلود کنید.*
 
 ---
 
@@ -42,6 +65,9 @@
 ### ۱. اجرای سورس کد
 ابتدا مخزن را کلون کنید:
 ```bash
-git clone [https://github.com/ho3einahmadi/Calculator_hamlettech.git](https://github.com/ho3einahmadi/Calculator_hamlettech.git)
+git clone https://github.com/ho3einahmadi/Calculator_hamlettech.git
 cd Calculator_hamlettech
 python main.py
+
+
+</div>
